@@ -1,4 +1,4 @@
-<?php require_once '../includes/header.php'; ?>
+<?php require_once '../../includes/header.php'; ?>
 
 <?php
 $arrExpressionText = array('$x = ""',
@@ -20,8 +20,8 @@ $arrExpressionText = array('$x = ""',
                         '$x = "false"'
                  );
 
-$x;
-$arrExpression = array('', null, $x, $y, array(), false, true, 1, 42, 0, -1, '1', '0', '-1', 'php', 'true', 'false');
+$y;
+$arrExpression = array('', null, $y, $x, array(), false, true, 1, 42, 0, -1, '1', '0', '-1', 'php', 'true', 'false');
 
 
 $arrComparisionText = array('TRUE', 'FALSE', 1, 0, -1, '1', '0', '-1', 'NULL', 'array()', 'php', '""');
@@ -126,4 +126,4 @@ $arrComparision = array(TRUE, FALSE, 1, 0, -1, '1', '0', '-1', NULL, array(), 'p
 
 
 
-<?php require_once '../includes/footer.php'; ?>
+<?php require_once '../../includes/footer.php'; ?>
