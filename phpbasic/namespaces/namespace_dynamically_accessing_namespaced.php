@@ -22,6 +22,7 @@ $obj = new $a; // prints classname::__construct
 $b = 'funcname';
 $b(); // prints funcname
 echo constant('constname'), "\n"; // prints global
+echo "<hr>";
 
 /* note that if using double quotes, "\\namespacename\\classname" must be used */
 $a = '\namespacename\classname';

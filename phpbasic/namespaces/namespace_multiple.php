@@ -12,7 +12,7 @@ class Connection { /* ... */ }
 function connect() { /* ... */  }
 
 
-//Fatal error: Cannot mix bracketed namespace declarations with unbracketed namespace declarations
+//Fatal error: Cannot mix (bracketed) namespace declarations with (unbracketed) namespace declarations
 namespace MyProject2 {
 
   const CONNECT_OK = 1;

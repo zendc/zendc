@@ -1,5 +1,5 @@
 <?php
-namespace MyProject;    //because this line
+namespace MyProject;    //because this line (**)
 
 const CONNECT_OK = 1;
 class Connection { /* ... */ }
@@ -13,5 +13,5 @@ echo "Fatal error - namespace must be the first statement in the script<hr>";
 
 <html>
 <?php
-namespace MyProjectNew; // OK
+namespace MyProjectNew; // OK becauce the line (**) has already defined
 ?>
