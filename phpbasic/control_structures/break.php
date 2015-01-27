@@ -51,6 +51,9 @@ while (list(, $val) = each($arr)) {
 }
 
 
+if(1 == 1) {
+    break;  //Fatal error:  Cannot break/continue 1 level
+}
 
 ?>
 </pre>

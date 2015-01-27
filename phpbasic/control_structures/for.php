@@ -57,6 +57,8 @@ for ($date = strtotime("2014-01-01"); $date < strtotime("2014-02-01"); $date = s
     echo date("Y-m-d", $date)."<br />";
 }
 
+for($i = 0; $i <= 5; $i++);
+    echo $i;    //6
 ?>
 </pre>
 <?php require_once '../../includes/footer.php'; ?>

@@ -24,14 +24,15 @@ echo "Type Casting and Overwriting example\n";
 $array = array(
     1    => "a",
     "1"  => "b",
-    1.5  => "c",
+    1.5  => "c",    //cast to 1
     07    => "integer",
     '07'  => "c",
     8    => "integer",
     '08'  => "c",
-    0x8A  => "c",
+    0x8A  => "c",   //138
     true => "d",
     false => "d",
+    "new"           //139
 );
 var_dump($array);
 
@@ -41,9 +42,11 @@ $array = array(
     "foo" => "bar",
     "bar" => "foo",
     100   => -100,
-    -100  => 100    //casting to string
+    -100  => 100    //-100
 );
 var_dump($array);
+echo $array[100];
+echo $array['100']."\n";
 
 //Example #5 Keys not on all elements
 //As you can see the last value "d" was assigned the key 7.

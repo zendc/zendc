@@ -50,6 +50,13 @@ for ($i = 0; $i < 5; ++$i) {
     //print "$i\n";
   }
 }
+
+
+$level = 1;
+for ($i = 0; $i < 5; ++$i) {
+    if ($i == 2)
+        continue $level; //Fatal error: 'continue' operator with non-constant operand is no longer supported
+}
 ?>
 </pre>
 <?php require_once '../../includes/footer.php'; ?>

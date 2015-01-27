@@ -18,6 +18,8 @@ var_dump("" == 0); // 0 == 0 -> TRUE
 var_dump(NULL == 0); // (bool)NULL == (bool)0 -> TRUE
 var_dump(08 == 8); // 08 is tring will be convert to 0 -> FALSE
 var_dump(010 == 8); // 010 octal = 8
+$resource = imagecreate(5, 5);
+var_dump($resource == 1); // it's depend resource id
 echo "<hr>";
 
 

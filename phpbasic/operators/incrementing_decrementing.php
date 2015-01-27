@@ -56,6 +56,9 @@ $d = 'A08';
 for ($n=0; $n<20; $n++) {
     echo ++$d . PHP_EOL;
 }
+
+$s = 'B';
+echo --$s. PHP_EOL;     //can not decremented character
 ?>
 </pre>
 <?php require_once '../../includes/footer.php'; ?>
